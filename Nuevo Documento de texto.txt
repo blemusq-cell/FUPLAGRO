@@ -1,0 +1,154 @@
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FUPLAGRO - Control de Plagas y Soluciones Agroambientales</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+      overflow-x: hidden;
+    }
+    header {
+      background: linear-gradient(135deg, #2c7a7b, #38b2ac);
+      color: white;
+      padding: 2rem;
+      text-align: center;
+      animation: fadeIn 2s ease;
+    }
+    header img {
+      max-width: 120px;
+      margin-bottom: 1rem;
+      animation: zoomIn 1.5s ease;
+    }
+    h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    section {
+      padding: 3rem 2rem;
+      max-width: 1200px;
+      margin: auto;
+    }
+    .card {
+      background: white;
+      border-radius: 12px;
+      padding: 2rem;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+      margin-bottom: 2rem;
+      transition: transform 0.3s ease;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    .services, .contact {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.5rem;
+    }
+    a.button {
+      display: inline-block;
+      padding: 0.8rem 1.5rem;
+      margin-top: 1rem;
+      border-radius: 8px;
+      background: #38b2ac;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.3s ease;
+    }
+    a.button:hover {
+      background: #2c7a7b;
+    }
+    footer {
+      background: #2c7a7b;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    @keyframes fadeIn {
+      from {opacity: 0;}
+      to {opacity: 1;}
+    }
+    @keyframes zoomIn {
+      from {transform: scale(0.8); opacity: 0;}
+      to {transform: scale(1); opacity: 1;}
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://drive.google.com/uc?id=1TNg1ac8xrnKQs2u6X6glxf8FO6mJBw5V" alt="Logo FUPLAGRO">
+    <h1>FUPLAGRO</h1>
+    <p>Soluciones integrales en control de plagas, desinfección y agroindustria</p>
+  </header>
+
+  <section>
+    <div class="card">
+      <h2>Misión</h2>
+      <p>Brindar soluciones integrales en control de plagas, desinfección, limpieza y distribución de productos agrícolas, con un enfoque en la calidad, la innovación y el cumplimiento normativo. Nos especializamos en la formulación de insumos agrícolas, la fabricación de envases plásticos y la comercialización de equipos especializados, para atender de forma eficiente y responsable las necesidades del sector productivo, institucional y doméstico en Guatemala.</p>
+    </div>
+
+    <div class="card">
+      <h2>Visión</h2>
+      <p>Consolidarnos como una empresa líder a nivel nacional en el sector agroambiental, reconocida por su excelencia operativa, capacidad tecnológica e innovación en servicios y productos. Aspiramos a expandir nuestras operaciones, fortalecer nuestra infraestructura y continuar desarrollando soluciones sostenibles y competitivas que contribuyan al crecimiento agrícola y al bienestar ambiental del país.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Servicios Principales</h2>
+    <div class="services">
+      <div class="card"><h3>Control de Roedores</h3><p>Manejo integral con estaciones cebaderas y trampas de captura.</p></div>
+      <div class="card"><h3>Vectores e Insectos</h3><p>Control de insectos rastreros y voladores.</p></div>
+      <div class="card"><h3>Fumigaciones</h3><p>Termonebulización y nebulización profesional.</p></div>
+      <div class="card"><h3>Desinfección</h3><p>Aplicación de virucidas certificados.</p></div>
+      <div class="card"><h3>Control de Chinches</h3><p>Soluciones efectivas para chinches en áreas críticas.</p></div>
+    </div>
+  </section>
+
+  <section>
+    <div class="card">
+      <h2>Plan de Control</h2>
+      <p>Dentro de la planta empacadora se colocarán de 16 a 23 estaciones cebaderas. En la bodega de cartón se instalarán 7 estaciones con trampas de goma, y en los alrededores se colocará cebo o trampas mecánicas de captura.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Documentos y Licencias</h2>
+    <div class="services">
+      <div class="card">
+        <h3>Licencia Ambiental</h3>
+        <a href="https://drive.google.com/file/d/1wN2z-gSH0FthMZsFgMEjR427thwme3Wq/view?usp=sharing" class="button">Ver Documento</a>
+      </div>
+      <div class="card">
+        <h3>Licencia Sanitaria</h3>
+        <a href="https://drive.google.com/file/d/1wuVQPyoZ4JWlbkLpTvIkQ2MAmREbgDRf/view?usp=sharing" class="button">Ver Documento</a>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Contacto</h2>
+    <div class="contact">
+      <div class="card">
+        <h3>Teléfonos</h3>
+        <p>Oficina: 4769-8314</p>
+        <p>Cel/WhatsApp: 5978-7778</p>
+      </div>
+      <div class="card">
+        <h3>Dirección</h3>
+        <p>Parcelamiento La Prosperidad, Tiquisate,<br> Lote 11 Mz A, frente a entrada El Arisco</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 FUPLAGRO - Todos los derechos reservados</p>
+  </footer>
+</body>
+</html>
+```
